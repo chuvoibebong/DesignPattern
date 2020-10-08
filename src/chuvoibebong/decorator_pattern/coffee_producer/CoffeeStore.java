@@ -17,7 +17,7 @@ public class CoffeeStore {
         Coffee myCoffee = myCoffeeStore.orderCoffee("HouseBlend");
         myCoffee = Whip.addWhipTo(myCoffee);
         System.out.println(myCoffee.getDescription());
-        System.out.println("Total cost : " + myCoffee.getCost() + " $");
+        System.out.println("Total cost : " + myCoffee.getCost() + " ");
     }
 
     public Coffee orderCoffee(String coffee) {
